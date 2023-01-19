@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Register form</h1>
+    <p>please fill out the form</p>
+     <form>
+        <fieldset>
+        <label for="first-name">enter your first name
+          <input type="text" id="first-name" required>
+        </label>
+        <label for="last-name">enter your last name
+            <input type="text" id="last-name"required>
+        </label>
+        <label for="email">Enter your email
+            <input type="email" id="email" required>
+        </label>
+        <label for="new-password">
+            create a new new-password
+            <input id="new-password" type="password" 
+             name="password"  required>
+        </label>
+    </fieldset>
+        <input type="submit" value="submit">
+     </form>
+    <br/>
+    <a href="profile.html">profile page</a>
+    <a href="sales.html">sale page</a>
+</body>
+</html>
